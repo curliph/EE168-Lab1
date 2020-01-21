@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      wbi
+HostName                       bender.engr.ucr.edu
+ProcessIdentifier              113719
+ProcessCreationTime_UTC        1579633973
+ProcessCreationTime_Readable   Tue 21 Jan 2020 11:12:53 AM PST PST
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/eemaj/wbi/eecs168/winsons_library/inverter/schematic/sch.oa.cdslck
+TimeEditLocked                 Tue 21 Jan 2020 11:57:53 AM PST PST

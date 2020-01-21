@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!--Created by Custom Designer (TM), build , on Wed Jan 15 14:33:03 2020-->
+<file-format version="1.0" name="stateData">
+ <attribute type="dmCellView" value="winsons_library/inverter_testbench/schematic" name="design"/>
+ <attribute type="giBoolean" value="1" name="enabled"/>
+ <attribute type="giString" value="default" name="name"/>
+ <attribute type="giString" value="HSPICE" name="simulator"/>
+ <comment></comment>
+ <integration version="1"/>
+</file-format>

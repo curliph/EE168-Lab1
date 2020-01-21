@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!--Created by Custom Designer (TM), build , on Wed Jan 15 14:33:03 2020-->
+<file-format version="1.0" name="stateCategory">
+ <object version="1" type="saOutputs" name="outputs">
+  <attribute type="giString" value="default" name="outputSet"/>
+  <collection name="outputSets">
+   <object version="1" type="saOutputSet" name="outputSets">
+    <attribute type="giString" value="default" name="name"/>
+    <collection name="outputs">
+     <object version="1" type="saOutput" name="outputs">
+      <attribute type="giString" value="dc tran" name="analyses"/>
+      <attribute type="giString" value="v(/VOUT)" name="expr"/>
+      <attribute type="giString" value="VOUT" name="name"/>
+      <attribute type="enOutputType" value="net" name="outputType"/>
+      <attribute type="giBoolean" value="1" name="plot"/>
+      <attribute type="giString" value="" name="probe"/>
+      <attribute type="giBoolean" value="1" name="save"/>
+      <collection name="specs">
+       <object version="1" type="saSpecification" name="specs">
+        <attribute type="giString" value="" name="analysis"/>
+        <attribute type="giBoolean" value="1" name="enabled"/>
+        <attribute type="enGoalType" value="Greater Than" name="extGoalType"/>
+        <attribute type="giString" value="" name="goal"/>
+        <attribute type="giString" value="" name="goalHigh"/>
+        <attribute type="giString" value="" name="goalLow"/>
+        <attribute type="enGoalType" value="Greater Than" name="goalType"/>
+        <attribute type="giString" value="0%" name="poor"/>
+        <attribute type="giString" value="0%" name="poorHigh"/>
+        <attribute type="giString" value="0%" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute type="giString" value="" name="value"/>
+     </object>
+     <object version="1" type="saOutput" name="outputs">
+      <attribute type="giString" value="dc tran" name="analyses"/>
+      <attribute type="giString" value="v(/VIN)" name="expr"/>
+      <attribute type="giString" value="VIN" name="name"/>
+      <attribute type="enOutputType" value="net" name="outputType"/>
+      <attribute type="giBoolean" value="1" name="plot"/>
+      <attribute type="giString" value="" name="probe"/>
+      <attribute type="giBoolean" value="1" name="save"/>
+      <collection name="specs">
+       <object version="1" type="saSpecification" name="specs">
+        <attribute type="giString" value="" name="analysis"/>
+        <attribute type="giBoolean" value="1" name="enabled"/>
+        <attribute type="enGoalType" value="Greater Than" name="extGoalType"/>
+        <attribute type="giString" value="" name="goal"/>
+        <attribute type="giString" value="" name="goalHigh"/>
+        <attribute type="giString" value="" name="goalLow"/>
+        <attribute type="enGoalType" value="Greater Than" name="goalType"/>
+        <attribute type="giString" value="0%" name="poor"/>
+        <attribute type="giString" value="0%" name="poorHigh"/>
+        <attribute type="giString" value="0%" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute type="giString" value="" name="value"/>
+     </object>
+     <object version="1" type="saOutput" name="outputs">
+      <attribute type="giString" value="dc tran" name="analyses"/>
+      <attribute type="giString" value="i(/V1/PLUS)" name="expr"/>
+      <attribute type="giString" value="isupply" name="name"/>
+      <attribute type="enOutputType" value="terminal" name="outputType"/>
+      <attribute type="giBoolean" value="1" name="plot"/>
+      <attribute type="giString" value="" name="probe"/>
+      <attribute type="giBoolean" value="1" name="save"/>
+      <collection name="specs">
+       <object version="1" type="saSpecification" name="specs">
+        <attribute type="giString" value="" name="analysis"/>
+        <attribute type="giBoolean" value="1" name="enabled"/>
+        <attribute type="enGoalType" value="Greater Than" name="extGoalType"/>
+        <attribute type="giString" value="" name="goal"/>
+        <attribute type="giString" value="" name="goalHigh"/>
+        <attribute type="giString" value="" name="goalLow"/>
+        <attribute type="enGoalType" value="Greater Than" name="goalType"/>
+        <attribute type="giString" value="0%" name="poor"/>
+        <attribute type="giString" value="0%" name="poorHigh"/>
+        <attribute type="giString" value="0%" name="poorLow"/>
+       </object>
+      </collection>
+      <attribute type="giString" value="" name="value"/>
+     </object>
+    </collection>
+   </object>
+  </collection>
+ </object>
+</file-format>
